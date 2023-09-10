@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Task_PR_Team1
+namespace Task_PR_Team1.Classes
 {
     internal class Countries
     {
@@ -18,7 +18,7 @@ namespace Task_PR_Team1
             CapitalCountry = capitalCountry;
         }
 
-        public void GiveCountry (string nameCountry, string capitalCountry)
+        public void GiveCountry(string nameCountry, string capitalCountry)
         {
             Console.WriteLine($"Your favorite country is {nameCountry} and capital this country is {capitalCountry}!");
         }
