@@ -20,3 +20,5 @@ Countries favorite = new Countries(favorCountry, capitolCountry);
 
 favorite.GiveCountry(favorCountry, capitolCountry);
 
+Console.WriteLine("Finish home task with PR");
+
